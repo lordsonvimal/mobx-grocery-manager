@@ -1,2 +1,2 @@
-# React-Typescript-Jest-Template
-Template for React with typescript and jest
+# Grocery Management using Mobx
+Manage your grocery requirements using mobx

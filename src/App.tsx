@@ -1,7 +1,12 @@
 import React  from "react";
+import GroceryList from "./containers/GroceryList";
+import GroceryInput from "./containers/GroceryInput";
 
 const App = (): JSX.Element => (
-  <h1>Template APP</h1>
+  <>
+    <GroceryInput />
+    <GroceryList />
+  </>
 );
 
 export default App;

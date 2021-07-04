@@ -1,5 +1,5 @@
 {
-  "name": "react-typescript-jest-template",
+  "name": "mobx-grocery-manager",
   "version": "1.0.0",
   "description": "Template for React/Typescript/Webpack/Babel/ESLint/Jest",
   "main": "src/index.tsx",
@@ -11,11 +11,14 @@
   "author": "Lordson Vimal",
   "license": "ISC",
   "dependencies": {
+    "mobx": "^6.3.2",
+    "mobx-react-lite": "^3.2.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.14.6",
+    "@babel/plugin-proposal-decorators": "^7.14.5",
     "@babel/plugin-transform-runtime": "^7.14.5",
     "@babel/preset-env": "^7.14.7",
     "@babel/preset-react": "^7.14.5",
